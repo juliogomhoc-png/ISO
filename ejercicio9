@@ -1,0 +1,8 @@
+#!/bin/bash
+palabras=("fusia" "amarillo" "roooojo" "azul" "verde")
+
+for palabra in "${palabras[@]}"; do
+  if [ ${#palabra} -gt 5 ]; then
+    echo "$palabra"
+  fi
+done

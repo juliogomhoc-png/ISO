@@ -1,0 +1,6 @@
+#!/bin/bash
+array=(1 2 2 3 4 4 5)
+
+duplicados=($(echo "${array[@]}" | tr ' ' '\n' | sort -u))
+
+echo "${sin_duplicados[@]}"

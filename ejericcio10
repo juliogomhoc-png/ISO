@@ -1,0 +1,10 @@
+#!/bin/bash
+
+numeros=(10 20 30 40)
+suma=0
+
+for num in "${numeros[@]}"; do
+  suma=$((suma + num))
+done
+
+echo "La suma es: $suma"
